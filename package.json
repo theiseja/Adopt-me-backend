@@ -1,0 +1,27 @@
+{
+  "name": "adopt-me-backend",
+  "version": "1.0.0",
+  "description": "backend server for pet adoption app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theiseja/Adopt-me-backend.git"
+  },
+  "author": "Jesse Theisen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theiseja/Adopt-me-backend/issues"
+  },
+  "homepage": "https://github.com/theiseja/Adopt-me-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "logger": "^0.0.1",
+    "morgan": "^1.9.1"
+  }
+}
